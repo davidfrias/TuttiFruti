@@ -1,5 +1,14 @@
 package ar.com.letme.model;
 
-public class Challenge extends EntityBase {
+import java.util.Set;
 
+public class Challenge extends EntityBase {
+	
+	private String name;
+	
+	private int allowedGames;
+	
+	private Set<Category> categories;
+	
+	private Set<Game> games;
 }
