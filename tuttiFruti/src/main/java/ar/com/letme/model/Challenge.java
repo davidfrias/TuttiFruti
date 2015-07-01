@@ -11,4 +11,6 @@ public class Challenge extends EntityBase {
 	private Set<Category> categories;
 	
 	private Set<Game> games;
+	
+	private Set<Participant> participants;
 }
